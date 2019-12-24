@@ -2,6 +2,8 @@
 
 Urban Planner is a jail orchestration system, meant to provision jails on a single node and later on multiple nodes. Provisionned jails will be wired up for the user to be fronted by a local load-balancer, basic logging, ssh capabilities, ssh port forwarding and extendable sidecars for maintenance (see DRiD).
 
+Urban Planner API is the interim between the CLI and the orchestrator ([Architect](https://github.com/sjolicoeur/architect_up/)). It is itself a jailed process.
+
 # Installation
 
 Deploy one of the made images:
